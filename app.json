@@ -1,0 +1,33 @@
+{
+    "expo": {
+        "name": "news-app",
+        "slug": "news-app",
+        "privacy": "public",
+        "sdkVersion": "36.0.0",
+        "platforms": ["ios", "android", "web"],
+        "version": "1.0.0",
+        "orientation": "portrait",
+        "icon": "./assets/icon.png",
+        "splash": {
+            "image": "./assets/splash.png",
+            "resizeMode": "contain",
+            "backgroundColor": "#ffffff"
+        },
+        "updates": {
+            "fallbackToCacheTimeout": 0
+        },
+        "assetBundlePatterns": ["**/*"],
+        "ios": {
+            "supportsTablet": false,
+            "bundleIdentifier": "com.hatake.newsapp",
+            "buildNumber": "1.0.0"
+        },
+        "android": {
+            "package": "com.hatake.newsapp",
+            "versionCode": 1
+        },
+        "extra": {
+            "newsApiKey": "e56c0502c39c4039889115c605792fb9"
+        }
+    }
+}
